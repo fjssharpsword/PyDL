@@ -14,9 +14,9 @@ if __name__ == "__main__":
     driver = webdriver.Chrome(r"D:\\Program Files\\chromedriver.exe")
     #driver.set_window_size(1920, 1080)
     #模拟登录
-    driver.get('http://www.med66.com/')   
-    #driver.find_element_by_id("username").send_keys("13392135288")
-    #driver.find_element_by_id("passwdInput").send_keys("cvte2019")
+    driver.get('http://www.XXX.com/')   
+    #driver.find_element_by_id("username").send_keys("XXX")
+    #driver.find_element_by_id("passwdInput").send_keys("XXX")
     #driver.find_element_by_id("loginSubmit").submit()
     time.sleep(50)#手动登录，并进入到开始做题页面
     windows = driver.window_handles
